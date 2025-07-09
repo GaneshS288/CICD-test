@@ -1,2 +1,1 @@
 const hello = window.location;
-
