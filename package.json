@@ -1,0 +1,29 @@
+{
+    "name": "cicd-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier -w .",
+        "format:check": "prettier -c ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GaneshS288/CICD-test.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/GaneshS288/CICD-test/issues"
+    },
+    "homepage": "https://github.com/GaneshS288/CICD-test#readme",
+    "workspaces": [
+        "server",
+        "client"
+    ],
+    "devDependencies": {
+        "prettier": "3.6.2"
+    }
+}
